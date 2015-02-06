@@ -56,7 +56,7 @@ blat(f        = "Your Name <your@email.com>",
 
 ### Blat License
 Blat is public domain, but Blat may not be used to send 
-unsolicited commercial eMail (UCE). Be sure to check out the
+unsolicited commercial Email (UCE). Be sure to check out the
 [full license](http://www.blat.net/?docs/license.txt)!
 
 ### Blat website
