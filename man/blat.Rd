@@ -2,7 +2,7 @@
 % Please edit documentation in R/blatr.R
 \name{blat}
 \alias{blat}
-\title{Send Emails Using Blat For Windows}
+\title{Send Emails Using Blat for Windows}
 \usage{
 blat(...)
 }
@@ -10,16 +10,17 @@ blat(...)
 \item{...}{arguments to blat}
 }
 \description{
-This is a wrapper which calls Blat to send emails. For documentation
-on the options, see http://www.blat.net/syntax/syntax.html.
-You should not use "-" in the argument names, this is done for you.
-Simply use \code{name = value} pairs as arguments.
+This is a wrapper which calls Blat to send emails. For documentation on the
+options, see \url{http://www.blat.net/syntax/syntax.html}. You should not use
+dashes as part of the argument names (as with Blat), this is done for you:
+simply use \code{name = value} pairs as arguments. For some basic examples
+of the most commonly used arguments, see below.
 }
 \details{
-Blat can use a file as body of the email, in which case this is
-ordinarily the first argument in the Blat command. However,
-\code{blatr} uses the named argument \code{filename} to specify this.
-Unnamed arguments do not work with blatr.
+Blat can use a file as body of the email, in which case this is ordinarily
+the first argument in the Blat command. However, \code{blatr} uses the named
+argument \code{filename} to specify this. Unnamed arguments do not work with
+blatr.
 }
 \examples{
 \dontrun{

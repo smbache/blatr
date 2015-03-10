@@ -4,24 +4,25 @@
 \name{blatr}
 \alias{blatr}
 \alias{blatr-package}
-\title{A simple wrapper for Blat (for Windows) SMTP Mailer in R.}
+\title{Send Emails Using "Blat" for Windows}
 \description{
-Blat is a command line email tool for Windows with many features. This
-package is a wrapper for using Blat from within R. For information about
-Blat, see \code{http://www.blat.net}, for the Blat license, see
+Blat is a feature-rich command line email tool for Windows. The \code{blatr}
+package is a wrapper for using Blat from within R. For information about Blat
+and its options, see \code{http://www.blat.net}, for the Blat license, see
 \code{http://www.blat.net/?docs/license.txt}.
 }
 \details{
 To use the \code{blatr} package, Blat needs to be installed. This can be done
 manually, by downloading the executables from the website \code{www.blat.net}
-and place them in the \code{blatr} installation directory. You can also use
-\code{blatr:::install_blat} to let \code{blatr} do it for you. You can always
-check that the needed files are placed correctly using
-\code{blatr:::check_install}. Note that these functions are not exported, as
-they are generally not needed when \code{blatr} is set up.
-The files installed by \code{blatr:::install_blat} are hosted on the
-blatr development page at \url{http://GitHub.com/smbache/blatr}.
-To get started, see the documentation for \code{blat}.
+and place them in the \code{blatr} installation directory, i.e. in
+\code{/path/to/R/library/blatr/}. You can also use \code{blatr:::install_blat} to
+let \code{blatr} do it for you. You can always check that the needed files
+are placed correctly using \code{blatr:::check_install}. Note that these
+functions are not exported, as they are generally not needed when
+\code{blatr} is properly set up. The files installed by \code{blatr:::install_blat}
+are hosted on the blatr development page at
+\url{http://GitHub.com/smbache/blatr}. To get started, see the documentation
+for \code{\link{blat}}.
 }
 \author{
 Stefan Milton Bache
