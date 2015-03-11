@@ -1,12 +1,12 @@
 Package: blatr
 Type: Package
-Title: Send Emails Using "Blat" for Windows
-Version: 1.0
-Date: 2014-03-17
+Title: Send Emails Using 'Blat' for Windows
+Version: 1.0.1
+Date: 2015-03-11
 Author: Stefan Milton Bache
 Maintainer: Stefan Milton Bache <stefan@stefanbache.dk>
-Description: A wrapper around the Blat command line SMTP mailer for Windows.
-    Blat is public domain software, but be sure to read the license before use.
+Description: A wrapper around the 'Blat' command line SMTP mailer for Windows.
+   'Blat' is public domain software, but be sure to read the license before use.
     It can be found at the Blat website http://www.blat.net.
 License: MIT + file LICENSE
 OS_type: windows

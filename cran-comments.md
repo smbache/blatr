@@ -1,10 +1,9 @@
-## General
-This is a re-submission based on Email response from
-Uwe Ligges and Prof. Brian Ripley. It seems the Blat 
-URL was unstable, I have success browsing through the 
-main website. I missed the title case and the period; 
-has been corrected (again!). 
-A short case for windows only is given below.
+## Minor update information:
+This minor update fixes a bug where filenames to be used as
+email body was not always quoted correctly for the system command.
+
+I also corrected the quotation style for 'Blat' in the 
+title and description, as requested.
 
 ## Test environments
 * local Windows installation (this is a Windows only package)
